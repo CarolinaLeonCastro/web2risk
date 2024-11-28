@@ -1,0 +1,137 @@
+/* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Lilita+One&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Lilita+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Space+Grotesk:wght@300..700&display=swap');
+body {
+    font-family: "Space Grotesk";
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+}
+
+
+/* Section presentation */
+#presentation {
+    position: relative;
+    height: 100vh; /* La section occupe toute la hauteur de l'écran */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.swiper-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* le carrousel en arrière-plan */
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Les images couvrent tout le slide */
+}
+
+/* Contenu au-dessus du carrousel */
+#presentation .content {
+    position: relative;
+    z-index: 2; /* Au-dessus du carrousel */
+    background-color: rgba(0, 0, 0, 0.5); /* Fond semi-transparent */
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+
+/* Navigation et pagination */
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff; /* Couleur des flèches */
+    z-index: 3; /* Au-dessus des images */
+}
+
+.swiper-pagination {
+    z-index: 3; /* Au-dessus des images */
+}
+
+/* Autres sections */
+.section:not(#presentation) {
+  /* Fond par défaut pour éviter le chevauchement */
+    margin: 0;
+    padding: 2rem;
+}
+
+#services {
+    height: 100vh;
+    background-color:#568EA3  ;
+    display: flex;
+}
+
+
+/* responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 200px;
+        padding: 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}

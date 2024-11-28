@@ -1,0 +1,10 @@
+L’équipe de Web2risk Agency est composée de professionnels passionnés et complémentaires : développeurs front-end et back-end, designers UX/UI, experts en SEO, et chefs de projet dédiés. Chacun apporte son expertise pour garantir des solutions performantes et créatives, tout en assurant une collaboration fluide et efficace. Ensemble, ils mettent tout en œuvre pour transformer les idées des clients en expériences digitales marquantes et sur-mesure.
+
+Lucas, Développeur Front-End
+Passionné de technologies, Lucas est expert en JavaScript et en frameworks modernes comme React et Vue.js. Toujours à l'affût des dernières tendances, il garantit une interface fluide et responsive, en mettant l’accent sur l’accessibilité et l’expérience utilisateur. Grand fan de design minimaliste, il aime créer des interfaces à la fois esthétiques et fonctionnelles.
+
+Emma, Cheffe de Projet Digitale
+Avec plusieurs années d’expérience en gestion de projet web, Emma est le lien entre l'équipe technique et les clients. Organisée et rigoureuse, elle s'assure que chaque étape du projet respecte le budget et les délais, tout en répondant aux besoins des clients. Dotée d’une grande capacité d’écoute, elle veille à ce que chaque projet soit aligné avec la vision de l’utilisateur final.
+
+Sofia, Experte SEO et Analytique
+Forte d’une solide expertise en référencement naturel, Sofia maîtrise les outils d'analyse de données pour maximiser la visibilité des projets. Elle réalise des audits SEO poussés et identifie les meilleures stratégies pour que chaque site atteigne un positionnement optimal. Passionnée par les chiffres et le comportement des utilisateurs, elle ajuste constamment ses recommandations pour améliorer les performances.
